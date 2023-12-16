@@ -22,16 +22,28 @@ Hotels play a crucial role in traveling and with the increased access to informa
 
 **a. Countplot of Sentiments -** Most of the comments are Positive, as shown in seaborn countplot.
 
+![img1](https://github.com/roy-sub/Tripadvisor/blob/main/Images/Countplot%20of%20Sentiments.png)
+
 **b. Plotting the Bar Graph -** In the bar plot, we can see the distribution of sentiment and rating, people with 5-star ratings have the highest positive sentiment. whereas at lower ratings its mixed emotions showed by customers review, this can be related to sarcasm.
+
+![img2](https://github.com/roy-sub/Tripadvisor/blob/main/Images/Plotting%20the%20Bar%20Graph.png)
 
 **c. Plotting a pie chart of ratings -** A simple pie chart using Plotly library can give you an idea of the distribution of different ratings. The majority of people are giving a positive and 4-5star rating.
 
+![img3](https://github.com/roy-sub/Tripadvisor/blob/main/Images/Plotting%20a%20pie%20chart%20of%20ratings.png)
+
 **d. Violion plot -** Violion plot gives us a better picture of the relationship between Ratings and Sentiments. From 3 to 5 rating most of the review sentiments are positive.
+
+![img4](https://github.com/roy-sub/Tripadvisor/blob/main/Images/Violin%20plot.png)
 
 **e. Wordcloud of Different Sentiments -** The most common word used in all three Sentiments was a hotel room. Which is quite obvious ,hotel managers can to focus on if they want a better rating from customers.
 
+![img5](https://github.com/roy-sub/Tripadvisor/blob/main/Images/Wordcloud%20of%20Different%20Sentiments.png)
+
 **f. Applying Keywords to the Dataframe -** 
 Extracted keywords using Gensim's `summarization.keywords module` which contains functions to find keywords of the text and building graph on tokens from text. More can be found at [Gensim](https://radimrehurek.com/gensim_3.8.3/summarization/keywords.html). And then used Python Counter to identify the top ten keywords and created a barplot of the top 20 keywords.
+
+![img6](https://github.com/roy-sub/Tripadvisor/blob/main/Images/Barplot%20of%20Top%2020%20Keywords.png)
 
 ### 4. Review Text Processing using NLTK
 
@@ -60,13 +72,21 @@ nltk.download('punkt')
 
 **a. Implemented a Long Short Term Memory (LSTM) architecture for sentiment prediction. -** Long short-term memory (LSTM) is an artificial recurrent neural network (RNN) architecture used in the field of deep learning. Unlike standard feedforward neural networks, LSTM has feedback connections. It can not only process single data points (such as images), but also entire sequences of data (such as speech or video). For example, LSTM is applicable to tasks such as unsegmented, connected handwriting recognition,speech recognition and anomaly detection in network traffic or IDSs (intrusion detection systems).
 
+![img7](https://github.com/roy-sub/Tripadvisor/blob/main/model_architecture.png)
+
 ### 6. Visualized Model Performance
 
 **a. Plotted accuracy and sparse categorical cross-entropy for both training and validation sets**
 
+![img8](https://github.com/roy-sub/Tripadvisor/blob/main/Images/metrics%20i.png)
+
 **b. Visualized model performance using a confusion matrix heatmap**
 
+![img9](https://github.com/roy-sub/Tripadvisor/blob/main/Images/confusion%20matrix.png)
+
 **c. Visualized model performance using a classification report**
+
+![img9](https://github.com/roy-sub/Tripadvisor/blob/main/Images/Classification%20Report.png)
 
 ### 7. Testing Saved Model
 Saved the trained model has been saved as [BiLSTM.h5](https://github.com/roy-sub/Tripadvisor/blob/main/BiLSTM.h5) for easy replication and testing.
