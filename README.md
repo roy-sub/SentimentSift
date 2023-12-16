@@ -98,3 +98,5 @@ Saved the trained model has been saved as [BiLSTM.h5](https://github.com/roy-sub
 **a. Tripadvisor Prediction model -** Overall my deep learning model performed well with limited resources and memory restrain. I think using the BERT model can increase accuracy by +20 percent. I haven't experimented with other ML models, but in my experience with gradient booster and logistic models do not perform well in text classification.
 
 **b. Final Thoughts -** Sentiments of reviews were all over the place and they did not have any effect on ratings. In reviews sometimes people are being sarcastic which is hard to pick by machine without context. Overall by analyzing keywords I have realized people were mostly writing reviews about the Hotel room, service, staff, and breakfast. Which is a good indicator for a hotel management team so they can focus on it, to get better reviews and 5 stars ratings.
+
+![conclusion](https://github.com/roy-sub/Tripadvisor/blob/main/Images/banner%20II.jpg)
