@@ -1,5 +1,7 @@
 # Tripadvisor Data Analysis and DL Model Development
 
+![banner](https://github.com/roy-sub/Tripadvisor/blob/main/Images/banner%20I.jpg)
+
 ## Project Overview
 In this project, we will be exploring the hotel reviews and the rating base on customer hotel experience. We will be also looking at feature engineering and designing a deep learning model to predict ratings based on reviews.We also be using NLP tools for feature extractions and preparing the data for deep learning models.
 
